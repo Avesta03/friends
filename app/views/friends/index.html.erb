@@ -4,6 +4,19 @@
 
 <h1>Friend List</h1>
 
+<table class="table table-striped table-bordered table-hover">
+  <thead class="thead-dark">
+    <tr>
+      <th>First Name</th>
+      <th>Last Name</th>
+      <th>Email</th>
+      <th>Phone</th>
+      <th>Twitter</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+   
+
 <div id="friends">
   <% @friends.each do |friend| %>
     <%= render friend %>
@@ -13,4 +26,5 @@
   <% end %>
 </div>
 
-<%= link_to "New friend", new_friend_path %>
+<%= link_to "New friend", new_friend_path, class:"btn btn-secondary" %>
+
