@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
-  get "home/index"
+  #get "home/index" # commented this in order to make the below `root 'home#index'` the first page you see when you do localhost:3000
+root 'home#index' 
   # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
 
   # Reveal health status on /up that returns 200 if the app boots with no exceptions, otherwise 500.
