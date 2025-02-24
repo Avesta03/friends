@@ -7,3 +7,6 @@ If you want to make a page manually instead of using Rails generator (rails g) y
 
 - <%= %> if you want it to output onto the screen
 - <% %> if you don't (like, for loops or if/else statements)
+
+<%= render "form", friend: @friend %>
+- Calls form partial
