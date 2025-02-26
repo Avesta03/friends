@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  devise_for :users
   resources :friends
   #get "home/index" # commented this in order to make the below `root 'home#index'` the first page you see when you do localhost:3000
   get 'home/about'
