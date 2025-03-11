@@ -1,24 +1,30 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## All Notes Go Here
 
-Things you may want to cover:
+If you want to make a page manually instead of using Rails generator (rails g) you need three things:
+1. Page itself
+2. Controller
+3. Route 
 
-* Ruby version
+- <%= %> if you want it to output onto the screen
+- <% %> if you don't (like, for loops or if/else statements)
 
-* System dependencies
+<%= render "form", friend: @friend %>
+- Calls form partial.
+
+* Ruby Version:
+
+* System Dependencies
 
 * Configuration
 
-* Database creation
+* Database Creation
 
-* Database initialization
+* Database Initialisation
 
-* How to run the test suite
+* How To Run The Test Suite
 
-* Services (job queues, cache servers, search engines, etc.)
+* Services (Job Queues, Cache Servers, Search Engines, etc.)
 
-* Deployment instructions
-
-* ...
+* Deployment Instructions
