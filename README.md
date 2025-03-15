@@ -13,6 +13,8 @@ If you want to make a page manually instead of using Rails generator (rails g) y
 <%= render "form", friend: @friend %>
 - Calls form partial.
 
+- Website can be hosted on Heroku.
+
 * Ruby Version:
 
 * System Dependencies
@@ -28,3 +30,7 @@ If you want to make a page manually instead of using Rails generator (rails g) y
 * Services (Job Queues, Cache Servers, Search Engines, etc.)
 
 * Deployment Instructions
+
+### Debugging Needed:
+- Log out feature currently has issues (GET func issue)
+- Friends List doesn't fit into the table but flows above the table...
